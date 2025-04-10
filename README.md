@@ -30,6 +30,9 @@ docker run -v "$(pwd)":/app projeto-vendas
 
 Veja o gráfico gerado em vendas.png
 
+![Gráfico de Vendas](vendas.png)
+
+
 Autor(a)
 
 Feito com 💜 por Gabriela Belo da Silva
