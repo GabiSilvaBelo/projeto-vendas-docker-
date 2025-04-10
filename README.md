@@ -22,16 +22,17 @@ projeto-vendas-docker/ ├── vendas.csv # Dados de entrada ├── vendas.
 git clone https://github.com/GabiSilvaBelo/projeto-vendas-docker.git
 cd projeto-vendas-docker
 
-Construa a imagem:
-docker build -t projeto-vendas 
+2. Construa a imgem:
+docker build -t projeto-vendas .
 
-Rode o container:
+3. Execute o container
 docker run -v "$(pwd)":/app projeto-vendas
 
-Veja o gráfico gerado em vendas.png
+4. O gráfico será gerado automaticamente no arquivo vendas.png
 
+📈 Exemplo do gráfico gerado
 ![Gráfico de Vendas](vendas.png)
 
-Autor(a)
+✨ Autor(a)
 
 Feito com 💜 por Gabriela Belo da Silva
