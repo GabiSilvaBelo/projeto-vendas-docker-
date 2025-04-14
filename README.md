@@ -11,7 +11,13 @@ Este projeto faz uma análise simples de vendas a partir de um arquivo CSV e ger
 
 ## 📁 Estrutura do projeto
 
-projeto-vendas-docker/ ├── vendas.csv # Dados de entrada ├── vendas.py # Script de análise ├── vendas.png # Gráfico gerado ├── Dockerfile # Receita do ambiente Docker ├── requirements.txt # Bibliotecas usadas └── README.md # Documentação
+projeto-vendas-docker/
+├── vendas.csv        # Dados de entrada
+├── vendas.py         # Script de análise
+├── vendas.png        # Gráfico gerado
+├── Dockerfile        # Receita do ambiente Docker
+├── requirements.txt  # Bibliotecas usadas
+└── README.md         # Documentação
 
 
 ## 🚀 Como rodar com Docker
@@ -22,15 +28,12 @@ projeto-vendas-docker/ ├── vendas.csv # Dados de entrada ├── vendas.
 git clone https://github.com/GabiSilvaBelo/projeto-vendas-docker.git
 cd projeto-vendas-docker
 
-2. Construa a imgem:
 docker build -t projeto-vendas .
 
-3. Execute o container
 docker run -v "$(pwd)":/app projeto-vendas
 
-4. O gráfico será gerado automaticamente no arquivo vendas.png
+📈 Exemplo do gráfico gerado:
 
-📈 Exemplo do gráfico gerado
 ![Gráfico de Vendas](vendas.png)
 
 ✨ Autor(a)
